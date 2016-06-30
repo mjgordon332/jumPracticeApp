@@ -1,0 +1,12 @@
+{
+  "name": "practice",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.4",
+    "serve-static": "^1.10.2"
+  },
+  "engines": {
+    "node": "5.0.0",
+    "npm": "3.3.6"
+  }
+}

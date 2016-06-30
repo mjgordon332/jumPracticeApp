@@ -1,0 +1,15 @@
+
+<!--This an example html page, of course compliments of the Company-->
+
+
+<div ><h1>Here are my sweet formated <br> names</h1></div>
+
+<div class="name" ng-repeat="name in names track by $index">
+    <div ng-click="remove($index)"> {{$index}} {{name}}</div>
+</div>
+
+<form ng-submit="addUser()">
+    <center><input ng-model="text"></center>
+</form>
+
+<center><button ng-click="addUser()">add</button></center>
